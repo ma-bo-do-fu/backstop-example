@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+**/backstop_data/bitmaps_test/
+**/backstop_data/bitmaps_reference/
+**/backstop_data/html_report/
