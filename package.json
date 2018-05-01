@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "reference": "backstop reference",
+    "reference-gecko": "backstop --config=backstop.gecko.json reference",
+    "test": "backstop test",
+    "test-gecko": "backstop --config=backstop.gecko.json test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ma-bo-do-fu/backstop-example/issues"
   },
-  "homepage": "https://github.com/ma-bo-do-fu/backstop-example#readme"
+  "homepage": "https://github.com/ma-bo-do-fu/backstop-example#readme",
+  "dependencies": {
+    "backstopjs": "^3.2.15",
+    "slimerjs": "^1.0.0"
+  }
 }
